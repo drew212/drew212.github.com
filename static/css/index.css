@@ -2,9 +2,10 @@ html, body{
     margin:0;
     height:100%;
     width:100%;
+    background-color: red;
 }
 
-#header{
+/*#header{
     position:relative;
     height:100px;
     width:100%;
@@ -82,4 +83,4 @@ p.main{
 }
 .highlight{
     color:#F7AD89;
-}
+}*/

@@ -1,38 +1,117 @@
 <html>
-    <style type="text/css">
-        body{
-            background-color: #555
-        }
-        #content{
-            margin: 2em 2em 2em 2em;
-            padding: 0em 1em 1.5em 1em;
-            background: white;
-            color: black;
-            border: 1px solid #aaa;
-            border-right: none;
-            /*line-height: 1.5em; */
-            position: relative;
-            z-index: 2;
-            margin-left: auto;
-            margin-right: auto;
-            display: block;
-            font-family: Arial;
-            font-size: 14px;
-        }
-        h1{
-            border-bottom: 2px solid black;
-        }
-        h2{
-            border-bottom: 1px solid gray;
-        }
-        #logo{
-            width: 650px;
-            padding: 0.5em;
-            padding-bottom: 0em;
-        }
-    </style>
+        <style type="text/css">
+            html, body{
+                margin:0;
+                height:100%;
+                width:100%;
+            }
+
+            #header{
+                position:relative;
+                height:100px;
+                width:100%;
+            }
+
+            #nav-wrap{
+                position:relative;
+                background-color:black;
+                height:37px;
+                width:430px;
+                border-radius:2px;
+            }
+
+            img.logo{
+                width:400px;
+                position:relative;
+                left:-20px;
+                bottom:15px;
+            }
+
+            ul.navbar{
+                position:relative;
+                top:8px;
+            }
+
+            li.navbar{
+                display:inline;
+            }
+
+            a.navbar{
+                color:white;
+                text-decoration:none;
+                padding:13px 20px 12px 20px;
+                font-family:arial;
+                font-weight:bold;
+                font-size:10px;
+            }
+
+            a.navbar:hover {
+                background-color:#6D6E71;
+                color:#F7AD89;
+            }
+
+            h1.caption{
+                position: relative;
+                left: 180px;
+                top: -30px;
+                font-family: georgia;
+                font-size: 25px;
+                color:#F78E11;
+                width:500px;
+                font-weight:500;
+            }
+
+            #content{
+                position:relative;
+                margin:0 auto;
+                width:980px;
+                height:100%;
+            }
+
+            #page-wrap{
+                height:100%;
+                width:100%;
+            }
+
+            p.main{
+                font-family:georgia;
+                width:558px;
+                font-size:14px;
+                line-height:17px;
+                position:relative;
+                left:220px;
+                top:40px;
+            }
+            .highlight{
+                color:#F7AD89;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div id="header">
+
+            <div id="nav-wrap">
+
+                <ul class="navbar">
+
+                    <li class="navbar">
+                    <a class="navbar" href="" target="home">About Me</a></li>
+                    <li class="navbar">
+                    <a class="navbar" href="http://ddcross.com/projects.html">Projects</a></li>
+                    <li class="navbar">
+                    <a class="navbar" href="http://ddcross.com/resume_web.pdf">Resume</a></li>
+                    <li class="navbar">
+                    <a class="navbar" href="mailto:ddcross2@illinois.edu">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
         <title>ddcross.com - Projects </title>
-        <div id="content" style="width:700px">
+        <div id="content">
             <body>
                 <h1>Projects</h1>
                 <h2>ChaOS</h2>
