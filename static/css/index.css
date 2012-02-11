@@ -2,10 +2,9 @@ html, body{
     margin:0;
     height:100%;
     width:100%;
-    background-color: red;
 }
 
-/*#header{
+#header{
     position:relative;
     height:100px;
     width:100%;
@@ -15,7 +14,6 @@ html, body{
     position:relative;
     background-color:black;
     height:37px;
-    width:430px;
     border-radius:2px;
 }
 
@@ -83,4 +81,4 @@ p.main{
 }
 .highlight{
     color:#F7AD89;
-}*/
+}
