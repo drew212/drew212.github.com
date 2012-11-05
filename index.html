@@ -1,44 +1,59 @@
-<html>
-
+<!DOCYTPE html>
+<html lang="en">
     <head>
-        <link rel="stylesheet" type="text/css" href="static/css/index.css" />
+        <meta charset="utf-8">
         <title>Drew Cross - Software Engineer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
+        <!-- Le styles -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <style>
+            body {
+            padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+            }
+        </style>
+        <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!-- Fav and touch icons -->
     </head>
 
     <body>
 
-        <div id="header">
-
-            <div id="nav-wrap">
-
-                <ul class="navbar">
-
-                    <li class="navbar">
-                    <a class="navbar" href="http://ddcross.com">About Me</a></li>
-                    <li class="navbar">
-                    <a class="navbar" href="http://ddcross.com/projects.html">Projects</a></li>
-                    <li class="navbar">
-                    <a class="navbar" href="http://ddcross.com/resume_web.pdf">Resume</a></li>
-                    <li class="navbar">
-                    <a class="navbar" href="mailto:ddcross2@illinois.edu">Contact</a></li>
-                    <li class="navbar">
-                    <a class="navbar" href="http://ddcross.com/mentoring.html">Mentoring</a></li>
-                </ul>
-
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li class="active"><a href="http://ddcross.com">About Me</a></li>
+                            <li><a href="http://ddcross.com/projects.html">Projects</a></li>
+                            <li><a href="http://ddcross.com/resume_web.pdf">Resume</a></li>
+                            <li><a href="mailto:ddcross2@illinois.edu">Contact</a></li>
+                            <li><a href="http://ddcross.com/mentoring.html">Mentoring</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
             </div>
-
         </div>
 
-        <div id="page-wrap">
-
-            <div id="content">
+        <div class="container">
 
                 <img class="logo" src="images/drewlogo.png" />
 
-                <h1 class="caption">Software Development Engineer</h1>
+                <h1>Software Development Engineer</h1>
 
-                <p class="main">
+                <p>
                 Thank you for taking the time to check my professional website. This website
                 maintains my current resume, and details significant projects I have completed
                 and participated in. All contact information has been removed from any
@@ -47,8 +62,24 @@
                 address.
                 </p>
 
-            </div>
-        </div>
-    </div>
-</body>
+        </div> <!-- /container -->
+
+        <!-- Le javascript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="../assets/js/jquery.js"></script>
+        <script src="../assets/js/bootstrap-transition.js"></script>
+        <script src="../assets/js/bootstrap-alert.js"></script>
+        <script src="../assets/js/bootstrap-modal.js"></script>
+        <script src="../assets/js/bootstrap-dropdown.js"></script>
+        <script src="../assets/js/bootstrap-scrollspy.js"></script>
+        <script src="../assets/js/bootstrap-tab.js"></script>
+        <script src="../assets/js/bootstrap-tooltip.js"></script>
+        <script src="../assets/js/bootstrap-popover.js"></script>
+        <script src="../assets/js/bootstrap-button.js"></script>
+        <script src="../assets/js/bootstrap-collapse.js"></script>
+        <script src="../assets/js/bootstrap-carousel.js"></script>
+        <script src="../assets/js/bootstrap-typeahead.js"></script>
+
+    </body>
 </html>
